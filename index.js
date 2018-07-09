@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 var katzDeli = [];
 function takeANumber(katzDeli, person) {
   katzDeli.push(`${person}`);
@@ -30,3 +31,11 @@ function currentLine(line) {
     return "The line is currently: " + lineArray.join(", ")
   }
 }
+=======
+function takeANumber(person) {
+  var array = [];
+  array.push(person);
+  
+  return "Welcome, ${array[person]}"
+}
+>>>>>>> 27c286b2c3593529fa55c1badfca047b0c2f63d4
