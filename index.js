@@ -1,5 +1,5 @@
 <<<<<<< HEAD
-var katzDeli = 0;
+var katzDeli = [];
 function takeANumber(katzDeli) {
   katzDeli++
   
