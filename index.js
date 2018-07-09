@@ -1,9 +1,9 @@
 <<<<<<< HEAD
-var katzDeli = [];
+var katzDeli = 0;
 function takeANumber(katzDeli) {
-  katzDeli.push(`${person}`);
+  katzDeli++
   
-  return `Welcome, ${person}. You are number ${katzDeli.length} in line.`
+  return `Welcome. You are number ${katzDeli} in line.`
 }
 
 function nowServing(katzDeli) {
